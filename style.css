@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background-image: url(fundoani.jpg);
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+}
+
+.container{
+background:rgba(0,0,0,0.25);
+padding:40px;
+border-radius:10px;
+}
+
+h1{
+font-size:48px;
+margin-bottom:30px;
+}
+
+.convite{
+font-size:20px;
+margin-bottom:40px;
+letter-spacing:2px;
+}
+
+.data{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.botoes{
+display:flex;
+flex-direction:column;
+gap:20px;
+align-items:center;
+}
+
+.botao{
+border:2px solid orange;
+padding:15px 40px;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+.botao:hover{
+background:orange;
+color:black;
+}
+
+.info{
+margin-top:40px;
+font-size:14px;
+opacity:0.8;
+}
+
+
+.nome{
+font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-weight: 700;
+}
+
+.titulo{
+font-size: 50px;
+font-weight: bold;
+margin: 20px 0;
+}
